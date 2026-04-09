@@ -1,0 +1,15 @@
+D:\.net\.net-c-\day1_practice\day1_practice\bin\Debug\net10.0\day1_practice.exe
+D:\.net\.net-c-\day1_practice\day1_practice\bin\Debug\net10.0\day1_practice.deps.json
+D:\.net\.net-c-\day1_practice\day1_practice\bin\Debug\net10.0\day1_practice.runtimeconfig.json
+D:\.net\.net-c-\day1_practice\day1_practice\bin\Debug\net10.0\day1_practice.dll
+D:\.net\.net-c-\day1_practice\day1_practice\bin\Debug\net10.0\day1_practice.pdb
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.AssemblyInfoInputs.cache
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.AssemblyInfo.cs
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.csproj.CoreCompileInputs.cache
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.sourcelink.json
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.dll
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\refint\day1_practice.dll
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.pdb
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\day1_practice.genruntimeconfig.cache
+D:\.net\.net-c-\day1_practice\day1_practice\obj\Debug\net10.0\ref\day1_practice.dll

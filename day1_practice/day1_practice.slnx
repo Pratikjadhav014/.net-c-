@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="day1_practice/day1_practice.csproj" />
+  <Project Path="prac1/prac1.csproj" />
+  <Project Path="prac4/prac4.csproj" />
+</Solution>
