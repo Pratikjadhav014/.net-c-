@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Movie Ticket Booking System</h1>
+    <p>Welcome to the ultimate movie ticket booking experience.</p>
+</div>
+
+<div class="row mt-5">
+    <div class="col-md-4">
+        <div class="card text-white bg-primary mb-3">
+            <div class="card-header">Total Movies</div>
+            <div class="card-body">
+                <h5 class="card-title display-5">@ViewBag.TotalMovies</h5>
+                <p class="card-text">Movies currently in our database.</p>
+                <a asp-controller="Movie" asp-action="Index" class="btn btn-light mt-2">Manage Movies</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-success mb-3">
+            <div class="card-header">Total Shows</div>
+            <div class="card-body">
+                <h5 class="card-title display-5">@ViewBag.TotalShows</h5>
+                <p class="card-text">Shows scheduled for booking.</p>
+                <a asp-controller="Show" asp-action="Index" class="btn btn-light mt-2">Manage Shows</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card text-white bg-info mb-3">
+            <div class="card-header">Total Bookings</div>
+            <div class="card-body">
+                <h5 class="card-title display-5">@ViewBag.TotalBookings</h5>
+                <p class="card-text">Tickets booked by our customers.</p>
+                <a asp-controller="Booking" asp-action="Index" class="btn btn-light mt-2">View Bookings</a>
+            </div>
+        </div>
+    </div>
+</div>

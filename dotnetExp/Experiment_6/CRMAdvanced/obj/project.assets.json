@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\tahir\\.nuget\\packages\\": {}
+    "C:\\Users\\jadha\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tahir\\Downloads\\dotnet EXP\\Experiment_6\\CRMAdvanced\\CRMAdvanced.csproj",
+      "projectUniqueName": "D:\\.net\\.net-c-\\dotnetExp\\Experiment_6\\CRMAdvanced\\CRMAdvanced.csproj",
       "projectName": "CRMAdvanced",
-      "projectPath": "C:\\Users\\tahir\\Downloads\\dotnet EXP\\Experiment_6\\CRMAdvanced\\CRMAdvanced.csproj",
-      "packagesPath": "C:\\Users\\tahir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tahir\\Downloads\\dotnet EXP\\Experiment_6\\CRMAdvanced\\obj\\",
+      "projectPath": "D:\\.net\\.net-c-\\dotnetExp\\Experiment_6\\CRMAdvanced\\CRMAdvanced.csproj",
+      "packagesPath": "C:\\Users\\jadha\\.nuget\\packages\\",
+      "outputPath": "D:\\.net\\.net-c-\\dotnetExp\\Experiment_6\\CRMAdvanced\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tahir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\jadha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace Experiment_2
 {
@@ -6,7 +6,7 @@ namespace Experiment_2
     {
         static void Main(string[] args)
         {
-            BankAccount account1 = new BankAccount(123456, "Tahir Handimalik", 5000);
+            BankAccount account1 = new BankAccount(123456, "pratik jadhav", 5000);
             account1.showDetails();
             account1.withdraw(2000);
             account1.deposit(1000);

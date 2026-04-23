@@ -1,0 +1,10 @@
+oral questions for DotNet(read notes was send in t2 batch)
+
+- lambda delegates 
+- async await basic
+- exp 6 -esp dot net 
+- exp 7 data validation 
+- exp 8 entity framework 
+- exp 9 web api 
+- exp 
+

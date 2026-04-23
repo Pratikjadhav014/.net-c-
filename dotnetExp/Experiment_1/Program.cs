@@ -16,6 +16,8 @@ namespace Experiment_1
             Console.WriteLine("Division     : " + (num1 / num2));
             Console.WriteLine("Multiplication : " + (num1 * num2));
             Console.WriteLine("Modulus      : " + (num1 % num2));
+
+            Console.ReadLine();
         }
     }
 }

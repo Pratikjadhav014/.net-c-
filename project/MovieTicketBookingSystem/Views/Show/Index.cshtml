@@ -1,0 +1,43 @@
+@model IEnumerable<MovieTicketBookingSystem.Models.Show>
+
+@{
+    ViewData["Title"] = "Shows";
+}
+
+<h1>All Shows</h1>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Create New Show</a>
+</p>
+<table class="table table-striped table-hover mt-3">
+    <thead class="table-dark">
+        <tr>
+            <th>Movie</th>
+            <th>@Html.DisplayNameFor(model => model.ShowTime)</th>
+            <th>@Html.DisplayNameFor(model => model.AvailableSeats)</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.OrderBy(s => s.ShowTime)) {
+        <tr>
+            <td><a asp-controller="Movie" asp-action="Details" asp-route-id="@item.MovieId">@Html.DisplayFor(modelItem => item.Movie!.MovieName)</a></td>
+            <td>@item.ShowTime.ToString("f")</td>
+            <td>
+                @if (item.AvailableSeats == 0) {
+                    <span class="badge bg-danger">Housefull</span>
+                } else {
+                    @Html.DisplayFor(modelItem => item.AvailableSeats)
+                }
+            </td>
+            <td>
+                @if(item.AvailableSeats > 0)
+                {
+                    <a asp-controller="Booking" asp-action="Create" asp-route-showId="@item.ShowId" class="btn btn-success btn-sm">Book Ticket</a>
+                }
+                | <a asp-action="Delete" asp-route-id="@item.ShowId" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

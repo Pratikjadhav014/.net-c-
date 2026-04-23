@@ -12,3 +12,18 @@ C:\Users\tahir\Downloads\dotnet EXP\Experiment_2\obj\Debug\net10.0\refint\Experi
 C:\Users\tahir\Downloads\dotnet EXP\Experiment_2\obj\Debug\net10.0\Experiment_2.pdb
 C:\Users\tahir\Downloads\dotnet EXP\Experiment_2\obj\Debug\net10.0\Experiment_2.genruntimeconfig.cache
 C:\Users\tahir\Downloads\dotnet EXP\Experiment_2\obj\Debug\net10.0\ref\Experiment_2.dll
+D:\.net\.net-c-\dotnetExp\Experiment_2\bin\Debug\net10.0\Experiment_2.exe
+D:\.net\.net-c-\dotnetExp\Experiment_2\bin\Debug\net10.0\Experiment_2.deps.json
+D:\.net\.net-c-\dotnetExp\Experiment_2\bin\Debug\net10.0\Experiment_2.runtimeconfig.json
+D:\.net\.net-c-\dotnetExp\Experiment_2\bin\Debug\net10.0\Experiment_2.dll
+D:\.net\.net-c-\dotnetExp\Experiment_2\bin\Debug\net10.0\Experiment_2.pdb
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.AssemblyInfoInputs.cache
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.AssemblyInfo.cs
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.csproj.CoreCompileInputs.cache
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.sourcelink.json
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.dll
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\refint\Experiment_2.dll
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.pdb
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\Experiment_2.genruntimeconfig.cache
+D:\.net\.net-c-\dotnetExp\Experiment_2\obj\Debug\net10.0\ref\Experiment_2.dll

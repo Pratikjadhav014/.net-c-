@@ -1,0 +1,36 @@
+@model MovieTicketBookingSystem.Models.Booking
+
+@{
+    ViewData["Title"] = "Booking Confirmation";
+}
+
+<div class="container text-center mt-5">
+    <div class="alert alert-success shadow">
+        <h1 class="display-4 text-success"><i class="bi bi-check-circle-fill"></i> Booking Confirmed!</h1>
+        <p class="lead">Your tickets have been successfully booked.</p>
+        <hr>
+        
+        <div class="row text-start mt-4">
+            <div class="col-md-6 offset-md-3">
+                <div class="card border-success">
+                    <div class="card-header bg-success text-white fw-bold">
+                        Booking ID: #@Model.BookingId
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><strong>Name:</strong> @Model.UserName</li>
+                        <li class="list-group-item"><strong>Mobile:</strong> @Model.MobileNumber</li>
+                        <li class="list-group-item"><strong>Movie:</strong> @Model.Movie!.MovieName</li>
+                        <li class="list-group-item"><strong>Show Time:</strong> @Model.Show!.ShowTime.ToString("f")</li>
+                        <li class="list-group-item"><strong>Seats Booked:</strong> <span class="badge bg-primary rounded-pill">@Model.SeatsBooked</span></li>
+                        <li class="list-group-item text-muted"><small>Booked on @Model.BookingDate.ToString("g")</small></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-4">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-outline-success">Go to Dashboard</a>
+            <a asp-controller="Movie" asp-action="Index" class="btn btn-primary">Book Another Movie</a>
+        </div>
+    </div>
+</div>
